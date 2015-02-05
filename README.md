@@ -21,6 +21,9 @@ Or install it yourself as:
 ## Usage
 
 ```config/application.rb
+
+# In Rails app, config/application.rb or config/deploy.rb
+
 Koti::BootLoader.new(
   ENV,
   [File.expand_path('../application.yml', __FILE__)],
