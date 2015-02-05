@@ -9,7 +9,7 @@
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'koti', github: 'mosson/koti
+gem 'koti', github: 'mosson/koti'
 ```
 
 And then execute:
