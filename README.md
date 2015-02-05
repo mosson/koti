@@ -19,6 +19,7 @@ And then execute:
 ## Usage
 
 ```yaml
+# config/application.yml
 SAMPLE: value
 development:
   KEY: dev-value
