@@ -37,7 +37,10 @@ module Koti
       end
 
       def check!(conf)
-        fail Errno::ENOENT, "configuration missing: #{conf}" unless File.exist? conf
+        fail(
+          Errno::ENOENT,
+          "configuration missing: #{conf}"
+        ) unless File.exist? conf
       end
 
       def source
