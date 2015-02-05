@@ -24,7 +24,7 @@ And then execute:
 Koti::BootLoader.new(
   ENV,
   [File.expand_path('../application.yml', __FILE__)],
-  Rails.env
+  Rails.env # or fetch(:stage)
 ).invoke!
 
 ```
