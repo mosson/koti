@@ -2,21 +2,19 @@
 
 アプリケーション起動時やCapistrano起動時にあらかじめ用意された設定ファイルの値をENVやグローバルな変数につめるためのもの
 
+【東風】
+
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'koti'
+gem 'koti', github: 'mosson/koti
 ```
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install koti
 
 ## Usage
 
