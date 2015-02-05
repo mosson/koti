@@ -18,6 +18,18 @@ And then execute:
 
 ## Usage
 
+```yaml
+SAMPLE: value
+development:
+  KEY: dev-value
+test:
+  KEY: tes-value
+staging:
+  KEY: sta-value
+production
+  KEY: pro-value
+```
+
 ```ruby
 # In Rails app, config/application.rb or config/deploy.rb
 
@@ -27,6 +39,8 @@ Koti::BootLoader.new(
   Rails.env # or fetch(:stage)
 ).invoke!
 
+ENV['SAMPLE'] # => 'value'
+ENV['KEY'] # => 現在のRails.envやfetch(:stage)に応じて値を変える
 ```
 
 ## Contributing
