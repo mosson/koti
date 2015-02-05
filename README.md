@@ -18,7 +18,7 @@ And then execute:
 
 ## Usage
 
-```config/application.rb
+```ruby:config/application.rb
 # In Rails app, config/application.rb or config/deploy.rb
 
 Koti::BootLoader.new(
