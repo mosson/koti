@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Koti::VERSION
   spec.authors       = ['mosson']
   spec.email         = ['cucation@gmail.com']
-  spec.summary       = 'TODO: Write a short summary. Required.'
-  spec.description   = 'TODO: Write a longer description. Optional.'
-  spec.homepage      = ''
+  spec.summary       = 'set variables from (the) yaml file(s).'
+  spec.description   = 'set variables from (the) yaml file(s).'
+  spec.homepage      = 'https://github.com/mosson/koti'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0")
