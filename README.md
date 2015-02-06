@@ -27,7 +27,7 @@ test:
   KEY: tes-value
 staging:
   KEY: sta-value
-production
+production:
   KEY: pro-value
 ```
 
