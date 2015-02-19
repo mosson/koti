@@ -1,4 +1,5 @@
 hoge: fuga
+nihongo: "%{cs_app_name} ウェブサイトへ"
 development:
   piyo: moga
 test:

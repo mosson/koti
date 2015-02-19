@@ -24,11 +24,7 @@ module Koti
     def set(source)
       source.each do |k, v|
         next if v.is_a? Hash
-        if v.is_a? String
-          target[k] = v.encoding('UTF-8', invalid: :replace, undef: :replace, replace: '?')
-        else
-          target[k] = v
-        end
+        target[k] = v
       end
     end
 
